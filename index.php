@@ -22,8 +22,15 @@
 #.htaccess
 - hide file directory with add file .htaccess -> (Options -Indexes)
 
+# Error Reporting
+- turn on error reporting on LIVE.
+- for turn off error report in php -> error_reporting(0)
+- turn off also can do in file php.ini -> display_errors = off
+
+# XSS (Cross-site Scripting)
+- input javascript code in form input text
+
+
 5. CSRF
-6. XSS
-7. Error Reporting
 
 <!-- END PHP SECURITY -->
