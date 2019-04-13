@@ -31,6 +31,9 @@
 - input javascript code in form input text
 - in PHP for avoid xss use -> htmlspecialchars($text ENT_QUOTES)
 
-5. CSRF
+# CSRF (Cross Site Request Forgery)
+- do an action directly by URL
+- for avoid csrf is using session login
+- for best avoid csrf is using random token. in php -> base64_encode(openssl_random_pseudo_bytes(32))
 
 <!-- END PHP SECURITY -->
