@@ -13,8 +13,15 @@
 - best enscrypt is password_hash -> password_hash($password) -> php 5.5 or higer
 - decrypt password_hash -> password_verify($password, $hash) -> return true/false
 
-2. htaccess
-3. user access permission
+#user access permission
+- add field role for create different access
+
+#Format file
+- save in format .php for hide text
+
+#.htaccess
+- hide file directory with add file .htaccess -> (Options -Indexes)
+
 5. CSRF
 6. XSS
 7. Error Reporting
