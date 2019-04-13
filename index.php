@@ -29,7 +29,7 @@
 
 # XSS (Cross-site Scripting)
 - input javascript code in form input text
-
+- in PHP for avoid xss use -> htmlspecialchars($text ENT_QUOTES)
 
 5. CSRF
 
