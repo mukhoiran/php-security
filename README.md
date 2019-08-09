@@ -1,2 +1,2 @@
 # php-security
-Documentation about security in PHP
+All about security on PHP
